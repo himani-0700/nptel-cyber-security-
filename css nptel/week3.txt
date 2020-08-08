@@ -1,0 +1,189 @@
+Week 3 Graded Assessment
+Q:1. The below function is part of a program that is running on a 32-bit x86 system; the compiler does not change the order of variables on the stack.
+
+
+void function(char *input) {
+
+  int i = 1;
+
+  char buffer[8];
+
+  int j = 2;
+
+     strcpy(buffer,input);
+
+     printf("%x %x %s\n",i,j,buffer);
+
+}
+
+What is the minimum length of a string passed to the function through the input parameter that can crash the application?
+
+1. 10
+
+2. 11
+
+3. 12
+
+4. 13
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+120 point
+Q:2. Applications developed by programming languages like ____ and ______ have this common buffer-overflow error.
+1. C, Ruby
+
+2. C, C++
+
+3. Python, Ruby
+
+4. C, Python
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+C, C++1 point
+Q:3. _____________ buffer overflows, which are more common among attackers.
+1. Memory-based
+
+2. Queue-based
+
+3. Stack-based
+
+4. Heap-based
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Stack-based1 point
+Q:4. Malicious code can be pushed into the _________ during ______________ attack.
+1. stack, buffer-overflow
+
+2. queue, buffer-overflow
+
+3. memory-card, buffer-overflow
+
+4. external drive, buffer-overflow
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+stack, buffer-overflow1 point
+Q:5. Which of the following string library functions is unsafe for buffer?
+1. gets (char * str)
+
+2. strcat (char * destination, const char * source)
+
+3. strcpy (char * destination, const char * source)
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above1 point
+Q:6. Which of the following statements is correct with respect to integer overflow?
+1. It is a result of an attempt to store a value greater than the maximum value an integer can store
+
+2. Integer overflow can compromise a program's reliability and security
+
+3. Both A and B
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Both A and B1 point
+Q:7. If an integer data type allows integers up to two bytes or 16 bits in length (or an unsigned number up to decimal 65,535), and two integers are to be added together that will exceed the value of 65,535, the result will be:
+1. Buffer Overflow
+
+2. Integer Overflow
+
+3. Stack Overflow
+
+4. Heap Overflow
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Integer Overflow1 point
+Q:8. Integer overflow bugs in programs are difficult to track down and may lead to fatal errors or exploitable vulnerabilities.
+1. True
+
+2. False
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+True1 point
+Q:9. One way of detecting integer overflows is by using a modified compiler to insert runtime checks.
+1. True
+
+2. False
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+True1 point
+Q:10. A format string is a ____ string that contains ___ and ____ parameters.
+1. Format, text, ASCII
+
+2. Text, ASCII, format
+
+3. ASCII, text, format
+
+4. None of the above
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+ASCII, text, format0 point
+Q:11. Which of the following is not a format function in C?
+1. fprintf()
+
+2. vsfprint()
+
+3. vfprintf()
+
+4. vsprintf()
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+vsfprint()1 point
+Q:12. What is the purpose of format functions?
+1. They are used to convert simple C data types to a string representation
+
+2. They allow to specify the format of the representation
+
+3. They process the resulting string (output to stderr, stdout, syslog, ...)
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above1 point
+Q:13. The behaviour of the _______ is controlled by the ________
+1. format function, format string
+
+2. format string, format function
+
+3. Both A and B
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+format function, format string1 point
+Q:14. Identify whether the following code has format string vulnerability or not. char tmpbuf[512]; snprintf (tmpbuf, sizeof (tmpbuf), "foo: %s", user); tmpbuf[sizeof (tmpbuf) - 1] = ’\0’; syslog (LOG_NOTICE, tmpbuf);
+1. No
+
+2. Yes
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Yes0 point

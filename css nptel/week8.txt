@@ -1,0 +1,196 @@
+Week 8 Graded Assessment
+Q:1. Which of the following browsers is the least capable of detecting mixed content?
+1. IE
+
+2. Firefox
+
+3. Safari
+
+4. Chrome
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Safari1 point
+Q:2. Which of the following browsers displays mixed-content dialog to user?
+1. IE
+
+2. Firefox
+
+3. Safari
+
+4. Chrome
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+IE1 point
+Q:3. As per the lecture, for maximum security, passwords should be made up of:
+1. Lower case letters only
+
+2. Memorable names and dates
+
+3. Upper case and lower-case letters, numbers and non letter characters
+
+4. Upper case and lower-case letters, numbers and symbols
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Upper case and lower-case letters, numbers and symbols1 point
+Q:4. When accessing a website, which icon can be seen in the address bar to indicate that the website is secure?
+1. An arrow
+
+2. A padlock
+
+3. A house
+
+4. A shield
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+A padlock1 point
+Q:5. If you share too much information on social media, what may you be at most risk of?
+1. Phishing
+
+2. Malware
+
+3. Identity theft
+
+4. Ransomware
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Identity theft1 point
+Q:6. Cookies were originally designed for
+1. Client-side programming
+
+2. Server-side programming
+
+3. Both Client-side programming and Server-side programming
+
+4. None of the mentioned
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Server-side programming0 point
+Q:7. What is the constraint on the data per cookie?
+1. 16 KB
+
+2. 8 KB
+
+3. 4 KB
+
+4. 2 KB
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+4 KB0 point
+Q:8. Which of the following is the maximum number of cookies that a browser can store?
+1. 10 Cookies / Site
+
+2. 20 Cookies / Site
+
+3. 30 Cookies / Site
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+20 Cookies / Site1 point
+Q:9. Which of the following is a use of cookies?
+1. User Authentication
+
+2. Personalization
+
+3. User Tracking
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above1 point
+Q:10. If we set the secure attribute of the cookie equals to true, then which of the following is correct?
+1. The browser will only send cookie back over HTTPS
+
+2. The browser will only send cookie back over HTTP
+
+3. The browser will send cookie back over both HTTPS & HTTP
+
+4. None of the above
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+undefined0 point
+Q:11. SQL injection is an attack in which _________ code is inserted into strings that are later passed to an instance of SQL Server.
+1. malicious
+
+2. redundant
+
+3. clean
+
+4. non malicious
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+malicious1 point
+Q:12. Point out the wrong statement:
+1. SQL injection vulnerabilities occur whenever input is used in the construction of an SQL query without being adequately constrained or sanitized
+
+2. SQL injection allows an attacker to access the SQL servers and execute SQL code under the privileges of the user used to connect to the database
+
+3. The use of PL-SQL opens the door to SQL injection vulnerabilities
+
+4. None of the mentioned statements is wrong
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+The use of PL-SQL opens the door to SQL injection vulnerabilities0 point
+Q:13. A Web site that allows users to enter text, such as a comment or a name, and then stores it and later display it to other users, is potentially vulnerable to a kind of attack called a ___________________ attack.
+1. Two-factor authentication
+
+2. Cross-site request forgery
+
+3. Cross-site scripting
+
+4. Cross-site scoring scripting
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Cross-site request forgery1 point
+Q:14. Many applications use _________________ where two independent factors are used to identify a user.
+1. Two-factor authentication
+
+2. Cross-site request forgery
+
+3. Cross-site scripting
+
+4. Cross-site scoring scripting
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Two-factor authentication0 point
+Q:15. Which of the following is a good way to prevent SQL injection?
+1. Use parameterized / prepared SQL
+
+2. Use ORM framework
+
+3. Both A and B
+
+4. None of the above
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Both A and B0 point

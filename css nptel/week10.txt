@@ -1,0 +1,192 @@
+Week 10 Graded Assessment
+Q:0. Which of the following is true about Public Key Infrastructure?
+1. PKI is a combination of digital certificates, public-key cryptography, and certificate authorities that provide enterprise wide security.
+
+2. PKI uses two-way symmetric key encryption with digital certificates, and Certificate Authority.
+
+3. PKI uses private and public keys but does not use digital certificates.
+
+4. PKI uses CHAP authentication.
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+PKI is a combination of digital certificates, public-key cryptography, and certificate authorities that provide enterprise wide security.1 point
+Q:1. What is the PGP stand for?
+1. Permuted Gap Permission
+
+2. Permuted Great Privacy
+
+3. Pretty Good Permission
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+None of the above1 point
+Q:2. Which of the following is not an element/field of the X.509 certificates?
+1. Issuer Name
+
+2. Serial Modifier
+
+3. Issuer unique Identifier
+
+4. Signature
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Serial Modifier1 point
+Q:4. What does RSA stand for?
+1. Ron Rivest, Adi Shamir and Len Adleman
+
+2. Reversible Symmetric Algorithm
+
+3. Revised Symmetric Algorithm
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Ron Rivest, Adi Shamir and Len Adleman1 point
+Q:5. Which of the following is correct for RSA algorithm?
+1. The RSA cryptosystem is the public key cryptography algorithm.
+
+2. It can be used for both public key encryption and digital signatures.
+
+3. Its security is based on the difficulty of factoring large integers.
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above1 point
+Q:6. RSA is also a stream cipher like Merkel-Hellman.
+1. True
+
+2. False
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+True1 point
+Q:7. In the RSA algorithm, we select 2 random large values ‘p’ and ‘q’. Which of the following is the property of ‘p’ and ‘q’?
+1. p and q should be divisible by ?(n)
+
+2. p and q should be co-prime
+
+3. p and q should be prime
+
+4. p/q should give no remainder
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+p and q should be prime1 point
+Q:8. In RSA, ?(n) = _______ in terms of p and q.
+1. (p)/(q)
+
+2. (p)(q)
+
+3. (p-1)(q-1)
+
+4. (p+1)(q+1)
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+(p-1)(q-1)1 point
+Q:9. Which of the following is correct for digital signatures?
+1. It is a protocol that produces the same effect as a real signature
+
+2. It is a mark that only sender can make
+
+3. Other people can easily recognize it as belonging to the sender
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above1 point
+Q:10. Digital signature must be _________.
+1. Forgeable
+
+2. Authentic
+
+3. Both A and B
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Authentic1 point
+Q:11. _____ key encryption systems are ideally suited to digital signatures.
+1. Private
+
+2. Public
+
+3. Secret
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Public1 point
+Q:12. Message authentication code is a hash function that uses _________.
+1. Public Key
+
+2. Private Key
+
+3. Secret Key
+
+4. Message Key
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Secret Key1 point
+Q:13. MDC stands for -
+1. Message Direction Codes
+
+2. Modification Detection Codes
+
+3. Modification Direction Codes
+
+4. Message Detection Codes
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Modification Detection Codes1 point
+Q:14. Public keys are all published in a _______
+1. Database
+
+2. Cryptosystem
+
+3. Both A and B
+
+4. None of the above
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Database0 point
+Q:15. Receiver decrypts the encrypted message by using his / her _____ key.
+1. Public
+
+2. Private
+
+3. Secret
+
+4. Message
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Private1 point

@@ -1,0 +1,163 @@
+Week 4 Graded Assessment
+Q:1. Which of the following is an example of control hijacking?
+1. Buffer overflow attacks
+
+2. Integer overflow attacks
+
+3. Format string vulnerabilities
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above
+
+Q:2. The overflows exploits can be detected by ______.
+1. adding runtime code
+
+2. adding vulnerabilities
+
+3. adding buffer
+
+4. None of the above
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+adding runtime code
+Q:3. Which of the following is an example of automated tool for software audit in prevention of control hijacking attacks?
+1. Coverity
+
+2. Prefix/Prefast
+
+3. Both A and B
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Both A and B1 point
+
+Q:4. Overflow code execution can be prevented by:
+1. halting the process
+
+2. fixing bugs
+
+3. adding more memory
+
+4. marking the stack and heap segments as non-executable
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+marking the stack and heap segments as non-executable
+
+Q:5. Arbitrary programs can be best generated using only the existing code ______.
+1. return oriented programming
+
+2. object oriented programming
+
+3. functional programming
+
+4. logical programming
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+return oriented programming
+
+Q:6. Which of the following is correct for Return Oriented Programming?
+1. It is a computer security exploit technique that allows an attacker to execute code in the presence of security defences such as DEP and code signing
+
+2. These types of attacks arise when an adversary manipulates the call stack by taking advantage of a bug in the program, often a buffer overflow.
+
+3. Return-oriented programming is an advanced version of a stack smashing attack.
+
+4. All of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+All of the above
+
+Q:7. In ASLR, an attacker cannot jump directly to execute function.
+1. True
+
+2. False
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+True
+
+Q:8. In the context of cyber security, what does ISR stands for?
+1. Information Storage and Retrieval
+
+2. Intermediate Session Routing
+
+3. Instruction Set Randomization
+
+4. Interrupt Service Routine
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Instruction Set Randomization
+
+Q:9. Which of the following is not a method of randomization?
+1. ASLR
+
+2. ISR
+
+3. Sys-call randomization
+
+4. Memory randomization
+
+Answer is incorrect
+Score: 0
+While Correct Answer:
+Memory randomization
+
+Q:10. _____ is only applied to images for which the dynamic-relocation flag is set.
+1. ASLR
+
+2. ISR
+
+3. Sys-call randomization
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+ASLR
+
+Q:11. Which of the following mark memory regions as non-executable, such that an attempt to execute machine code in these regions will cause an exception?
+1. Return Oriented Programming
+
+2. Data Execution Prevention
+
+3. Randomization
+
+4. None of the above
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Data Execution Prevention
+
+Q:12. In the context of cyber security, PTE stands for:
+1. Process Table Entries
+
+2. Public Test Environment
+
+3. Path Terminating Equipment
+
+4. Page Table Entry
+
+Yes,the answer is correct
+Score: 1
+Accepted Answer:
+Page Table Entry
